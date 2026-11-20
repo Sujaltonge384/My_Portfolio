@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import {
   motion,
+  type MotionStyle,
   useMotionTemplate,
   useMotionValueEvent,
   useScroll,
@@ -116,7 +117,7 @@ interface ScrollParallaxCardProps {
   children: React.ReactNode;
   index?: number;
   className?: string;
-  style?: React.CSSProperties;
+  style?: MotionStyle;
 }
 
 export function ScrollParallaxCard({
@@ -179,7 +180,7 @@ interface StaggerCascadeProps {
   children: React.ReactNode;
   staggerDelay?: number;
   className?: string;
-  style?: React.CSSProperties;
+  style?: MotionStyle;
 }
 
 export function StaggerCascade({
@@ -212,7 +213,7 @@ export function StaggerCascade({
 interface StaggerItemProps {
   children: React.ReactNode;
   className?: string;
-  style?: React.CSSProperties;
+  style?: MotionStyle;
 }
 
 export function StaggerItem({ children, className, style }: StaggerItemProps) {
@@ -345,7 +346,6 @@ export function TimelineScrollBeam({ children }: TimelineScrollBeamProps) {
 
   return (
     <div ref={containerRef} style={{ position: 'relative', paddingLeft: '32px' }}>
-      {/* Dim track */}
       <div
         style={{
           position: 'absolute',
@@ -357,7 +357,6 @@ export function TimelineScrollBeam({ children }: TimelineScrollBeamProps) {
         }}
       />
 
-      {/* Live glowing scroll beam */}
       <motion.div
         style={{
           position: 'absolute',
