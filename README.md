@@ -1,6 +1,6 @@
 ﻿# Sujal Tonge — Full-Stack Software Developer & AI Architect Portfolio
 
-[![Live Site](https://img.shields.io/badge/Live-sujal.dev-00F0FF?style=for-the-badge&logo=vercel&logoColor=white)]([https://sujal.dev](https://sujaltonge.vercel.app/))
+[![Live Site](https://img.shields.io/badge/Live-sujal.dev-00F0FF?style=for-the-badge&logo=vercel&logoColor=white)](https://sujaltonge.vercel.app/))
 [![Next.js](https://img.shields.io/badge/Next.js_15-App_Router-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Framer Motion](https://img.shields.io/badge/Motion-Framer_%2B_GSAP-FF2A85?style=for-the-badge)](https://www.framer.com/motion/)
