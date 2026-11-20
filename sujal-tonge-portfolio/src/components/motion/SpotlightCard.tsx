@@ -1,7 +1,7 @@
-'use client';
+﻿'use client';
 
 import React, { useRef } from 'react';
-import { motion } from 'framer-motion';
+import { motion, type MotionStyle } from 'framer-motion';
 import styles from './SpotlightCard.module.css';
 
 interface SpotlightCardProps {
@@ -32,7 +32,7 @@ export function SpotlightCard({
     <motion.div
       ref={cardRef}
       className={`${styles.card} ${className}`}
-      style={spotColor ? ({ '--spot-color': spotColor } as React.CSSProperties) : undefined}
+      style={spotColor ? ({ '--spot-color': spotColor } as MotionStyle) : undefined}
       onMouseMove={handleMouseMove}
       onClick={onClick}
       data-cursor={cursorLabel}
