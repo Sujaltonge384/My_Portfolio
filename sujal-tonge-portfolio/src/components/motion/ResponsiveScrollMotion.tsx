@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {
   motion,
+  type MotionStyle,
   useReducedMotion,
   useScroll,
   useSpring,
@@ -84,7 +85,7 @@ interface TunedScrollCardProps {
   children: React.ReactNode;
   index?: number;
   className?: string;
-  style?: React.CSSProperties;
+  style?: MotionStyle;
 }
 
 export function TunedScrollCard({
