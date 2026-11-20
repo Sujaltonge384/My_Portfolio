@@ -3,7 +3,6 @@ import { JetBrains_Mono, Plus_Jakarta_Sans, Syne } from 'next/font/google';
 import { SmoothScrollProvider } from '@/components/motion/SmoothScrollProvider';
 import { CustomCursor } from '@/components/motion/CustomCursor';
 import { TerminalPreloader } from '@/components/motion/TerminalPreloader';
-// @ts-expect-error Next.js bundles this global stylesheet without a TypeScript module declaration.
 import '@/styles/globals.css';
 
 const syne = Syne({
